@@ -1,0 +1,11 @@
+#logo-image {
+    width: 200px;
+    border-radius: 350px;
+}
+
+body {
+    background-image: url(/images/Pakistan.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
