@@ -1,0 +1,34 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+    margin: 0;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+#logo-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}

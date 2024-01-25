@@ -1,11 +1,47 @@
-#logo-image {
-    width: 200px;
-    border-radius: 350px;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
 }
 
-body {
-    background-image: url(/images/Pakistan.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#main-content {
+    color: white;
+    width: 600px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#letsvisit-button {
+    background-color: rgb(211, 122, 19);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+#main-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#main-content p {
+    font-size: 20px;
+}
+
+#champion {
+    height: 600px;
+    background-image: url(/images/pakistan1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
