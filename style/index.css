@@ -33,7 +33,6 @@
 
 #main-content a:hover {
     background-color: rgb(49, 27, 3);
-
 }
 
 #champion {
@@ -45,6 +44,7 @@
 
 #highlights {
     background-color: rgb(135, 228, 228);
+    
 }
 
 #highlights h1 {
@@ -53,7 +53,7 @@
     text-transform: uppercase;
     margin: 0;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #destinations {
@@ -74,13 +74,34 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.destination img:hover {
+    transform: scale(1.05);
+}
+
 .destination p{
     text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.destination strong {
+    color: rgb(3, 109, 10);
 }
 
 .footer {
     width: 100%;
+    box-sizing: border-box;
+    margin: 0;
     background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
+}
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer p {
+    margin: 0;
 }
