@@ -31,6 +31,9 @@ main li img {
 }
 
 .item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
 }
 main ul li h2{
@@ -54,8 +57,6 @@ main ul li a {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     border-radius:6px;
     margin: 0;
-    position: relative;
-    left: 300px;
 }
 
 main ul li a:hover {
@@ -66,9 +67,8 @@ main ul li a:hover {
     width: 95%;
 }
 
-.higher-width-link{
-    position: relative;
-    left: 950px;
+.action{
+    text-align: right;
 }
 
 .footer {
