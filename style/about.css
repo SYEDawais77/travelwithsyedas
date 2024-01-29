@@ -15,7 +15,8 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fcfcfc;
+    box-shadow: 0 0 10px rgba(239, 238, 238, 0.1);
     border-radius: 8px;
 }
 
@@ -48,6 +49,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
     width: 100%;
     box-sizing: border-box;
     margin: 0;
